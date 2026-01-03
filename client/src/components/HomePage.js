@@ -6,8 +6,8 @@ export const HomePage = () => {
     <>
       <section id="hero" className="d-flex align-items-center">
         <div className="container">
-          <h1>Welcome to MEDIBLES</h1>
-          <h2>Say Hello to India's top doctors via "Project MEDIBLES"</h2>
+          <h1>Welcome to MediCare</h1>
+          <h2>Say Hello to India's top doctors via "Project MediCare"</h2>
           <a href="/login" className="btn-get-started scrollto">
             Get Started
           </a>
@@ -20,7 +20,7 @@ export const HomePage = () => {
             <div className="row">
               <div className="col-lg-6 d-flex align-items-stretch">
                 <div className="content">
-                  <h3>Why Choose MEDIBLES?</h3>
+                  <h3>Why Choose MediCare?</h3>
                   <p>
                     Get digital prescriptions, monitoring your progress with
                     advanced AI features, being a part of patients - community.
@@ -374,89 +374,34 @@ export const HomePage = () => {
         </section>
 
         <section id="team" className="team section-bg">
-          <div className="container" data-aos="fade-up">
-            <div className="section-title">
-              <h2>Team</h2>
-              <p>
-                Team Nutella, a group of 3 tech enthusiast from NIT Rourkela
-              </p>
-            </div>
+  <div className="container" data-aos="fade-up">
+    <div className="section-title">
+      <h2>Team</h2>
+      <p>Team Diamonds, a group of 4 tech enthusiasts from VESIT</p>
+    </div>
 
-            <div className="row">
-              <div className="col-lg-4">
-                <div
-                  className="member d-flex align-items-start"
-                  data-aos="zoom-in"
-                  data-aos-delay="100"
-                >
-                  <div className="pic">
-                    <img
-                      src="/img/team/team-1.jpeg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div className="member-info">
-                    <h4>Parwin Akhtari </h4>
-
-                    <p>
-                      An Aspiring developer and tech enthusiast. Interested in
-                      Problem Solving.{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mt-4 mt-lg-0">
-                <div
-                  className="member d-flex align-items-start"
-                  data-aos="zoom-in"
-                  data-aos-delay="200"
-                >
-                  <div className="pic">
-                    <img
-                      src="/img/team/team-2.PNG"
-                      className="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div className="member-info">
-                    <h4>Siddharth Sharma</h4>
-
-                    <p>
-                      I'm a passionate Learner and tech enthusiast, currently
-                      learning Machine Learning
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4">
-                <div
-                  className="member d-flex align-items-start"
-                  data-aos="zoom-in"
-                  data-aos-delay="100"
-                >
-                  <div className="pic">
-                    <img
-                      src="/img/team/team-3.jpeg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div className="member-info">
-                    <h4>Alpana Nanda</h4>
-
-                    <p>
-                      I seek new challenges and try to think out-of-the-box
-                      while solving a problem.
-                    </p>
-                  </div>
-                </div>
-              </div>
+    <div className="row justify-content-center">
+      {[
+        { name: "Manthan Ilake" },
+        { name: "Tejasva Chaudhari" },
+        { name: "Bhagyesh Chaudhary" },
+        { name: "Akshat Bhatnagar" },
+      ].map((member, index) => (
+        <div className="col-lg-3 col-md-6 mb-4" key={index}>
+          <div
+            className="member text-center"
+            data-aos="zoom-in"
+            data-aos-delay={100 * (index + 1)}
+          >
+            <div className="member-info">
+              <h4>{member.name}</h4>
             </div>
           </div>
-        </section>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
       </main>
     </>
   );

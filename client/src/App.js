@@ -69,10 +69,7 @@ function App() {
           <div className="container-fluid">
             <div className="row align-items-center justify-content-center">
               <div className="col-12 mb-lg-0 mb-4">
-                <div className="text-center text-sm">
-                  Made with ❤️ by
-                  <b> Team Nutella</b>
-                </div>
+
               </div>
             </div>
           </div>

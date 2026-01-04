@@ -109,7 +109,7 @@ export default function ViewProfile(props) {
         order_id: data.id,
         name: "Medibles",
         description: "Pay the following amount to book doctor",
-        image: "https://res.cloudinary.com/rapidhack/image/upload/v1643878114/Medibles-logo_wpyytn.png",
+        image: "https://www.bing.com/th/id/OIP.5-8N1e0Fbn-EUV6mhQxOvgHaFL?w=263&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
         handler: function(response) {
           props.showAlert("Payment Success!! Event Request Has been Sent to the Doctor Succesfully", "success");
           // alert(response.razorpay_payment_id);

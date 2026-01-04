@@ -46,11 +46,11 @@ export const Login = (props) => {
                     <div className="card-body p-md-5 mx-md-4">
                       <div className="text-center">
                         <img
-                          src="https://res.cloudinary.com/rapidhack/image/upload/v1643878114/Medibles-logo_wpyytn.png"
+                          src="https://www.bing.com/th/id/OIP.5-8N1e0Fbn-EUV6mhQxOvgHaFL?w=263&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
                           style={{ width: "45px" }}
                           alt="logo"
                         />
-                        <h4 className="mt-1 mb-5 pb-1">Project - Medibles</h4>
+                        <h4 className="mt-1 mb-5 pb-1">MediCare</h4>
                       </div>
 
                       <form onSubmit={handleSubmit}>
@@ -109,8 +109,8 @@ export const Login = (props) => {
                     </div>
                   </div>
                   <div className="col-lg-6 d-flex align-items-center gradient-custom-2">
-                    <div className="text-white px-3 py-4 p-md-5 mx-md-4">
-                      <h4 className="mb-4">Medibles Paltform</h4>
+                    <div className="text-white px-4 py-4 p-md-5 mx-md-4">
+                      <h4 className="mb-4">MediCare Paltform</h4>
                       <p className="small mb-0">
                         Get digital prescriptions, monitoring your progress with
                         advanced AI features, being a part of patients -
@@ -119,7 +119,7 @@ export const Login = (props) => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div>  
               </div>
             </div>
           </div>

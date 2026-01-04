@@ -21,8 +21,8 @@ export default function Navbar(props) {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <img
-              src="https://res.cloudinary.com/rapidhack/image/upload/v1643878114/Medibles-logo_wpyytn.png"
-              style={{ width: "32px" }}
+              src="https://www.bing.com/th/id/OIP.5-8N1e0Fbn-EUV6mhQxOvgHaFL?w=263&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+              style={{ width: "32px" ,borderRadius: "30%" , height: "27px"}}
               alt="logo"
               className="mx-2"
             />
@@ -30,7 +30,7 @@ export default function Navbar(props) {
               className="navbar-brand"
               to={userrole === "patient" ? "/" : "/homedoctor"}
             >
-              Medibles
+              MediCare
             </Link>
             <button
               className="navbar-toggler"
@@ -132,7 +132,7 @@ export default function Navbar(props) {
                   </li>
                 </ul>
                 <button className="btn btn-primary mx-1" onClick={handleLogout}>
-                  logout
+                  Logout
                 </button>
               </div>
             ) : (
